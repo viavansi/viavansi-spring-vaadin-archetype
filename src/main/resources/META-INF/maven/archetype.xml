@@ -1,0 +1,42 @@
+<archetype xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0 http://maven.apache.org/xsd/archetype-1.0.0.xsd">
+  <id>quickstart</id>
+  <sources>
+    <source>src/main/java/Application.java</source>
+    <source>src/main/java/configuration/AuthorizationServerConfiguration.java</source>
+    <source>src/main/java/configuration/ResourceServerConfiguration.java</source>
+    <source>src/main/java/configuration/SpringfoxConfiguration.java</source>
+    <source>src/main/java/configuration/VaadinConfiguration.java</source>
+    <source>src/main/java/configuration/WebSecurityConfiguration.java</source>
+    <source>src/main/java/exception/ApiControllerAdvice.java</source>
+    <source>src/main/java/exception/ApiException.java</source>
+    <source>src/main/java/model/Hello.java</source>
+    <source>src/main/java/restcontroller/HelloRestController.java</source>
+    <source>src/main/java/service/ApplicationClientDetailsService.java</source>
+    <source>src/main/java/service/ApplicationUserDetailsService.java</source>
+    <source>src/main/java/vaadin/backend/MyBackend.java</source>
+    <source>src/main/java/vaadin/operations/AdminOperation.java</source>
+    <source>src/main/java/vaadin/operations/LogoutOperation.java</source>
+    <source>src/main/java/vaadin/operations/UserOperation.java</source>
+    <source>src/main/java/vaadin/screen/LoginScreen.java</source>
+    <source>src/main/java/vaadin/screen/MainScreen.java</source>
+    <source>src/main/java/vaadin/screen/Sections.java</source>
+    <source>src/main/java/vaadin/ui/PublicUI.java</source>
+    <source>src/main/java/vaadin/ui/SingleSecuredUI.java</source>
+    <source>src/main/java/vaadin/view/AccessDeniedView.java</source>
+    <source>src/main/java/vaadin/view/AdminView.java</source>
+    <source>src/main/java/vaadin/view/ErrorView.java</source>
+    <source>src/main/java/vaadin/view/HomeView.java</source>
+    <source>src/main/java/vaadin/view/UserView.java</source>      
+  </sources>
+  <resources>
+  	<source>src/main/resources/application.properties</source>
+  	<source>src/main/resources/banner.txt</source>
+  </resources>
+  <testSources>
+    <source>src/test/java/ApplicationTests.java</source>
+  </testSources>
+  <testResources>
+  	<source>src/test/resources/application.properties</source>
+  </testResources>
+</archetype>
